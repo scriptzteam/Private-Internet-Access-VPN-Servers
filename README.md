@@ -4,7 +4,7 @@ This repository contains an automatically updated list of all Private Internet A
 ## Check if you are connected
 A little thing PIA doesn't provide is a way to check if you are connected to their network without going to their website.
 ```bash
-curl -s https://scriptzteam.github.io/Private-Internet-Access-VPN-Servers/docs/$(curl -s https://ipinfo.io/ip)
+curl -s https://scriptzteam.github.io/Private-Internet-Access-VPN-Servers/$(curl -s https://ipinfo.io/ip)
 ```
 
 When you are connected, you will see: `You are connected to PIA`.
